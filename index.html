@@ -23,10 +23,14 @@
                 <span class="label">速度</span>
                 <span id="speed" class="value">1</span>
             </div>
+            <div class="score-item">
+                <span class="label">敌人</span>
+                <span id="enemy-count" class="value">1</span>
+            </div>
         </div>
 
         <div class="canvas-wrapper">
-            <canvas id="gameCanvas" width="400" height="400"></canvas>
+            <canvas id="gameCanvas" width="800" height="800"></canvas>
             <div id="overlay" class="overlay">
                 <div class="overlay-content">
                     <h2 id="overlay-title">准备开始</h2>
@@ -54,6 +58,8 @@
         <div class="instructions">
             <p>⌨️ 方向键 / WASD 控制方向</p>
             <p>⌨️ 空格键 暂停/继续</p>
+            <p>🤖 AI 敌人也会抢食物，撞到它们身体会失败</p>
+            <p>🌀 撞到边界不会死，会从对面钻出来</p>
         </div>
     </div>
 

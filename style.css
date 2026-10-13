@@ -22,7 +22,7 @@ body {
     padding: 30px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    max-width: 460px;
+    max-width: 880px;
     width: 100%;
 }
 
@@ -68,8 +68,9 @@ h1 {
 
 .canvas-wrapper {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 1;
     margin: 0 auto;
     border-radius: 12px;
     overflow: hidden;
@@ -78,6 +79,8 @@ h1 {
 
 #gameCanvas {
     display: block;
+    width: 100%;
+    height: 100%;
     background: #0a0a1a;
 }
 
